@@ -11,7 +11,7 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Téléphone</LinkTitle>
-          <LinkItem href="tel:0033628182420">06-28-18-24-20</LinkItem>
+          <LinkItem href="tel:0033628182420">336-28-18-24-20</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
@@ -35,7 +35,7 @@ const Footer = () => {
         </LinkColumn>
         
       </LinkList>
-       <Slogan>NDONGO <AiOutlineCopyrightCircle style={{marginTop: 8}} /> 2021 </Slogan>
+       <Slogan>NDONGO <AiOutlineCopyrightCircle style={{marginTop: 8}} /> {new Date().getFullYear()} </Slogan>
     </FooterWrapper>
   );
 };
