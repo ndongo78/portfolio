@@ -59,10 +59,6 @@ const Technologies = () =>  (
             <span style={{marginLeft: 10}}>Express.js</span>
           </ListParagraph>
           <ListParagraph>
-            <picture> <DiPhp size='3rem'  /> </picture>
-            <span style={{marginLeft: 10}}>PHP</span>
-          </ListParagraph>
-          <ListParagraph>
             <picture> <SiLaravel size='3rem'  /> </picture>
             <span style={{marginLeft: 10}}>Laravel</span>
           </ListParagraph>

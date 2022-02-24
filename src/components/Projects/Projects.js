@@ -12,7 +12,7 @@ const Projects = () => (
     {
         projects.map((item,i)=>(
             <BlogCard key={i}>
-                  <Img src={item.image} />
+                  <Img src={item.image}  />
                  
             <TitleContent>
               <HeaderThree title>{item.title}</HeaderThree>
